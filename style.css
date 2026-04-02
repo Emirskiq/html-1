@@ -42,13 +42,13 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 15%;
   padding: 20px 0 60px 0;
   background-color: antiquewhite;
   gap: 25px;
 }
 .Dni {
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid rgb(1, 187, 255);
 }
 nav {
   width: 100%;
@@ -65,8 +65,9 @@ nav {
   display: flex;
   gap: 4px;
   border-radius: 3px;
-  width: 85%;
+  width: 92%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .left-predmeti {
@@ -85,10 +86,52 @@ nav {
 }
 div {
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 span {
   display: flex;
   align-content: start;
   justify-content: start;
   font-style: italic;
+  width: 100px;
+  background-color: white;
+  border-radius: 8px;
+  height: 30px;
+}
+.matematika {
+  display: flex;
+  justify-items: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  width: 153px;
+  border-radius: 8px;
+  border-left: 7px solid rgb(6, 170, 220);
+  padding-left: 5px;
+}
+.proektirane {
+  display: flex;
+  justify-items: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  width: 153px;
+  border-radius: 8px;
+  border-left: 7px solid rgb(220, 24, 6);
+  padding-left: 5px;
+}
+
+.web-design {
+  display: flex;
+  justify-items: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  width: 153px;
+  border-radius: 8px;
+  justify-content: space-between;
+  height: 50px;
+  border-left: 7px solid rgb(6, 220, 56);
+  padding-left: 5px;
 }
