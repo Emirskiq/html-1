@@ -27,6 +27,7 @@ body {
   display: flex;
   gap: 50px;
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 .Uchebnorazpisanie {
   display: flex;
