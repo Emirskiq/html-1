@@ -33,10 +33,7 @@ body {
   display: flex;
 }
 
-.predmeti {
-  font-size: medium;
-}
-.Dni2 {
+.dni2 {
   border-radius: 5px;
   border: 1px solid red;
   justify-content: center;
@@ -48,7 +45,7 @@ body {
   background-color: antiquewhite;
   gap: 25px;
 }
-.Dni {
+.dni {
   border-bottom: 1px solid rgb(1, 187, 255);
 }
 nav {
@@ -61,7 +58,7 @@ nav {
   height: 60px;
   font-size: 12px;
 }
-.Dni2 > div {
+.dni2 > div {
   /* background-color: rgb(24, 228, 51); */
   display: flex;
   gap: 4px;
@@ -71,7 +68,7 @@ nav {
   align-items: center;
 }
 
-.left-predmeti {
+.leftpredmeti {
   flex-direction: column;
   width: 40%;
   gap: 10px;
@@ -82,12 +79,13 @@ nav {
   gap: 10px;
 }
 .predmeti {
+  font-size: medium;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 div {
-  display: flex;
   justify-content: center;
   width: 100%;
 }
